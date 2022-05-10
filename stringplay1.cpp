@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
     string Name;
-    cout << "enter your name :";
-    cin >> Name;
+    cout << "enter your fullname :";
+    getline(cin, Name);
     int i;
     cout << "start \n";
     cout << "----------------------------------------------------- \n";
